@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JetBrains.Platform.VisualStudio.SinceVs15</name>
+    </assembly>
+    <members>
+        <member name="T:JetBrains.Platform.VisualStudio.SinceVs15.IDE.Internal.Actions.ProjectModel.IWorkspaceEx">
+            <summary>
+            Helper methods to explore <see cref="T:Microsoft.VisualStudio.Workspace.IWorkspace"/> which is a Visual Studio accessor to solution or folder. 
+            It can be obtained from <see cref="T:JetBrains.VsIntegration.Shell.RawVsServiceProvider"/> as rawVsServiceProvider.TryGetService&lt;SVsSolutionWorkspaceService, IVsSolutionWorkspaceService&gt;();
+            </summary>
+        </member>
+        <member name="M:JetBrains.Platform.VisualStudio.SinceVs15.IDE.Internal.Actions.ProjectModel.IWorkspaceEx.GetProjectsInSolutionAsync(Microsoft.VisualStudio.Workspace.IWorkspace,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Collects all the projects in current <see cref="!:workspace"/>
+            </summary>
+            <param name="workspace">Current workspace</param>
+            <param name="solutionFilePath">Solution path. Can be obtained from <see cref="P:Microsoft.VisualStudio.Workspace.VSIntegration.IVsSolutionWorkspaceService.SolutionFile"/></param>
+            <param name="cancellationToken">Optional cancellationToken</param>
+            <returns>Project file paths. Will return duplicates by number of project configurations</returns>
+        </member>
+        <member name="M:JetBrains.Platform.VisualStudio.SinceVs15.IDE.Internal.Actions.ProjectModel.IWorkspaceEx.GetFilesInProjectAsync(Microsoft.VisualStudio.Workspace.IWorkspace,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Collects all the files in project. TODO: check if there're compilable files only
+            </summary>
+            <param name="workspace">Current workspace</param>
+            <param name="projectFilePath">Path to project file</param>
+            <param name="cancellationToken">Optional cancellationToken</param>
+            <returns>List of files in given project</returns>
+        </member>
+        <member name="M:JetBrains.Platform.VisualStudio.SinceVs15.IDE.Internal.Actions.ProjectModel.IWorkspaceEx.GetAllFilesAsync(Microsoft.VisualStudio.Workspace.IWorkspace)">
+            <summary>
+            Returns all the files form given <see cref="!:workspace"/>. Makes more sense to use in Open Folder mode.
+            </summary>
+            <param name="workspace">Solution or Folder workspace</param>
+            <returns>List of files in the workspace</returns>
+        </member>
+        <member name="M:JetBrains.Platform.VisualStudio.SinceVs15.ProjectDocuments.SharedProjectContextProvider.SetProjectContext(JetBrains.ProjectModel.IProjectFile,JetBrains.ProjectModel.IProject)">
+            <summary>
+            Applies project context set in text control dropdown
+            </summary>
+            <param name="projectFile">Project file for which context is selected in dropdown</param>
+            <param name="contextProject">Project context</param>
+        </member>
+        <member name="P:JetBrains.Platform.VisualStudio.SinceVs15.ProjectDocuments.DeferredProjects.ProjectsUpdated">
+            <summary>
+            Fired when projects' data loaded in background
+            </summary>
+        </member>
+        <member name="P:JetBrains.Platform.VisualStudio.SinceVs15.ProjectDocuments.DeferredProjects.ProjectIsNotDeferred">
+            <summary>
+            Fired when project is not deferred any more. I.e. loaded
+            </summary>
+        </member>
+        <member name="T:JetBrains.Platform.VisualStudio.SinceVs15.ProjectModel.ResharperOpenFolderNodeExtender.ResharperWorkspaceCommandHandler">
+            <summary>
+            Class for your custom context menu handler
+            </summary>
+        </member>
+        <member name="T:JetBrains.Platform.VisualStudio.SinceVs15.Shell.Zones.ISinceVs15Zone">
+            <summary>
+            Visual Studio integrated products, VS 15.0 and above.
+            </summary>
+        </member>
+    </members>
+</doc>

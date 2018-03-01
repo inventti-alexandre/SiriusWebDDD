@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildEventLoggerModel.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.MemoryUnit.dll" />
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.v15.dll">
+      <TargetPath>JetBrains.Platform.MsBuildTask.v15.dll</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.v15.pdb">
+      <TargetPath>JetBrains.Platform.MsBuildTask.v15.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.v15.xml">
+      <TargetPath>JetBrains.Platform.MsBuildTask.v15.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.v4.dll">
+      <TargetPath>JetBrains.Platform.MsBuildTask.v4.dll</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.v4.pdb">
+      <TargetPath>JetBrains.Platform.MsBuildTask.v4.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.MsBuildTask.v4.xml">
+      <TargetPath>JetBrains.Platform.MsBuildTask.v4.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\NetStandard\JetBrains.Platform.MsBuildEventLoggerModel.NetStandard.dll">
+      <TargetPath>NetStandard\JetBrains.Platform.MsBuildEventLoggerModel.NetStandard.dll</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\NetStandard\JetBrains.Platform.MsBuildTask.NetStandard.dll">
+      <TargetPath>NetStandard\JetBrains.Platform.MsBuildTask.NetStandard.dll</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\NetStandard\JetBrains.Platform.MsBuildTask.v15.NetStandard.dll">
+      <TargetPath>NetStandard\JetBrains.Platform.MsBuildTask.v15.NetStandard.dll</TargetPath>
+    </JetContent>
+    <JetMetadata Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Platform.Core.MsBuild.JetMetadata.sstg" />
+  </ItemGroup>
+</Project>

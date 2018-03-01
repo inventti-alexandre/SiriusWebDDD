@@ -1,0 +1,4 @@
+F:\PROJETOS\SiriusWebDDD\SiriusWebDDD.Infra.IoC\bin\Debug\SiriusWebDDD.Infra.IoC.dll
+F:\PROJETOS\SiriusWebDDD\SiriusWebDDD.Infra.IoC\bin\Debug\SiriusWebDDD.Infra.IoC.pdb
+F:\PROJETOS\SiriusWebDDD\SiriusWebDDD.Infra.IoC\obj\Debug\SiriusWebDDD.Infra.IoC.dll
+F:\PROJETOS\SiriusWebDDD\SiriusWebDDD.Infra.IoC\obj\Debug\SiriusWebDDD.Infra.IoC.pdb

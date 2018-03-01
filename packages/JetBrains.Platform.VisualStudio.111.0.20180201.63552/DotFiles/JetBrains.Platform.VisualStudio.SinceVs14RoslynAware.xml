@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JetBrains.Platform.VisualStudio.SinceVs14RoslynAware</name>
+    </assembly>
+    <members>
+        <member name="T:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.ProjectK.ProjectPropertiesFactoryVsFromHierarchy14">
+            <summary>
+            TODO: unify with ProjectCapabilitiesProjectTypeGuidProvider
+            </summary>
+        </member>
+        <member name="M:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.RoslynWrapper.ProjectEx.GetTargetFrameworkId(Microsoft.CodeAnalysis.Project)">
+            <summary>
+            Detects TargetFrameworkId by Roslyn project name.
+            </summary>
+            <param name="project">Roslyn project</param>
+            <returns>Detected TargetFrameworkId or null if failed to detect</returns>
+        </member>
+        <member name="P:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.RoslynWrapper.WorkspaceWrapper.CurrentSolution">
+            <summary>
+            Roslyn <see cref="T:Microsoft.CodeAnalysis.Solution"/> if it exists
+            </summary>
+        </member>
+        <member name="P:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.RoslynWrapper.WorkspaceWrapper.WorkspaceChanged">
+            <summary>
+            Fired on any <see cref="P:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.RoslynWrapper.WorkspaceWrapper.Workspace"/> event
+            </summary>
+        </member>
+        <member name="P:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.RoslynWrapper.WorkspaceWrapper.ReSharperProjectsMightNeedToBeUpdated">
+            <summary>
+            Batched ReSharper projects that are affected by recent <see cref="P:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.RoslynWrapper.WorkspaceWrapper.Workspace"/> changes. 
+            If you need raw events or want to react immediately use <see cref="P:JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.ProjectModel.RoslynWrapper.WorkspaceWrapper.WorkspaceChanged"/>
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunnerFramework.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestFramework.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTesting.Analysis.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTesting.Analysis.VB.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTesting.MSTest.Provider.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestProvider.JavaScript.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestProvider.nUnit.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestProvider.Xunit.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.dotMemoryUnit.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.JavaScript.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.nUnit.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.Xunit.dll" />
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\Definitions\PhantomJSTestRunner.js">
+      <TargetPath>Definitions\PhantomJSTestRunner.js</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.exe">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.exe</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.exe.config">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.exe.config</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.pdb">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.x64.exe">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.x64.exe</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.x64.exe.config">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.x64.exe.config</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.x64.pdb">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.x64.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.x64.xml">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.x64.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR4.xml">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR4.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.exe">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.exe</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.exe.config">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.exe.config</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.pdb">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.x64.exe">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.x64.exe</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.x64.exe.config">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.x64.exe.config</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.x64.pdb">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.x64.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.x64.xml">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.x64.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.CLR45.xml">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.CLR45.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.exe">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.exe</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.exe.config">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.exe.config</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.pdb">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.x64.exe">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.x64.exe</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.x64.exe.config">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.x64.exe.config</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.x64.pdb">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.x64.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.x64.xml">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.x64.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.TaskRunner.xml">
+      <TargetPath>JetBrains.ReSharper.TaskRunner.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.nUnit26.dll">
+      <TargetPath>JetBrains.ReSharper.UnitTestRunner.nUnit26.dll</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.nUnit26.pdb">
+      <TargetPath>JetBrains.ReSharper.UnitTestRunner.nUnit26.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.nUnit26.xml">
+      <TargetPath>JetBrains.ReSharper.UnitTestRunner.nUnit26.xml</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.nUnit30.dll">
+      <TargetPath>JetBrains.ReSharper.UnitTestRunner.nUnit30.dll</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.nUnit30.pdb">
+      <TargetPath>JetBrains.ReSharper.UnitTestRunner.nUnit30.pdb</TargetPath>
+    </JetContent>
+    <JetContent Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.UnitTestRunner.nUnit30.xml">
+      <TargetPath>JetBrains.ReSharper.UnitTestRunner.nUnit30.xml</TargetPath>
+    </JetContent>
+    <JetMetadata Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Psi.Features.UnitTesting.JetMetadata.sstg" />
+  </ItemGroup>
+</Project>

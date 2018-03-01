@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.Diagramming.Core.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.ReSharper.Diagramming.Features.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\yWorks.yFilesWPF.Adapter.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\yWorks.yFilesWPF.Algorithms.dll" />
+    <JetReference Include="$(MSBuildThisFileDirectory)..\..\DotFiles\yWorks.yFilesWPF.Viewer.dll" />
+    <JetMetadata Include="$(MSBuildThisFileDirectory)..\..\DotFiles\JetBrains.Psi.Features.Diagramming.JetMetadata.sstg" />
+  </ItemGroup>
+</Project>
